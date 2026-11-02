@@ -1,0 +1,83 @@
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2684587
+Academic license 2684587 - for non-commercial use only - registered to yu___@northeastern.edu
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Set parameter Threads to value 32
+Set parameter Presolve to value 2
+Set parameter BarOrder to value 1
+Set parameter BarConvTol to value 1e-06
+Set parameter OptimalityTol to value 1e-05
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 32 threads
+
+Warning: Thread count (32) is larger than processor count (8)
+         Reduce the value of the Threads parameter to improve performance
+
+
+Non-default parameters:
+OptimalityTol  1e-05
+Method  2
+BarConvTol  1e-06
+BarOrder  1
+Crossover  0
+Presolve  2
+Threads  32
+
+Academic license 2684587 - for non-commercial use only - registered to yu___@northeastern.edu
+Optimize a model with 3411 rows, 3770 columns and 19660 nonzeros
+Model fingerprint: 0x3cfc6aee
+Coefficient statistics:
+  Matrix range     [1e-01, 2e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [6e-02, 2e-01]
+  RHS range        [5e-04, 2e-01]
+Presolve removed 898 rows and 681 columns
+Presolve time: 0.01s
+Presolved: 2513 rows, 3089 columns, 18430 nonzeros
+Ordering time: 0.04s
+
+Barrier statistics:
+ AA' NZ     : 4.745e+04
+ Factor NZ  : 3.085e+05 (roughly 5 MB of memory)
+ Factor Ops : 6.765e+07 (less than 1 second per iteration)
+ Threads    : 32
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.87550581e+01 -6.53984382e+01  2.35e+01 1.52e-01  1.39e-01     0s
+   1   9.51216734e+00 -5.29322719e+01  9.56e+00 2.82e-01  6.06e-02     0s
+   2   4.87620000e+00 -3.32230351e+01  2.71e+00 7.76e-02  2.35e-02     0s
+   3   2.01099869e+00 -1.07920002e+01  4.90e-01 4.86e-03  5.94e-03     0s
+   4   1.00561745e+00 -3.49471863e+00  4.00e-02 6.21e-04  1.14e-03     0s
+   5   8.45182677e-01 -1.73246091e+00  7.08e-03 1.77e-04  4.62e-04     0s
+   6   7.85676194e-01 -4.12445003e-01  9.93e-04 2.94e-05  1.90e-04     0s
+   7   7.32537957e-01  1.22899160e-01  2.12e-04 5.55e-16  9.44e-05     0s
+   8   6.93955780e-01  3.07178249e-01  1.07e-04 6.35e-16  5.97e-05     0s
+   9   6.59189326e-01  4.85517856e-01  5.30e-05 4.01e-16  2.68e-05     0s
+  10   6.31706823e-01  5.32756493e-01  1.86e-05 4.44e-16  1.52e-05     0s
+  11   6.21178240e-01  5.61997101e-01  8.51e-06 3.33e-16  9.10e-06     0s
+  12   6.17154492e-01  5.83855226e-01  5.28e-06 7.04e-16  5.12e-06     0s
+  13   6.12322508e-01  5.91447571e-01  1.89e-06 1.86e-15  3.21e-06     0s
+  14   6.09854971e-01  6.00263482e-01  4.44e-07 6.70e-16  1.47e-06     0s
+  15   6.08803703e-01  6.06299084e-01  8.54e-08 2.24e-15  3.84e-07     0s
+  16   6.08587783e-01  6.07603969e-01  3.37e-08 1.66e-15  1.51e-07     0s
+  17   6.08510319e-01  6.07902251e-01  1.75e-08 1.57e-15  9.33e-08     0s
+  18   6.08444673e-01  6.08149876e-01  4.41e-09 1.47e-15  4.52e-08     0s
+  19   6.08423160e-01  6.08262605e-01  1.13e-09 2.44e-15  2.46e-08     0s
+  20   6.08416342e-01  6.08401964e-01  3.61e-10 8.18e-15  2.21e-09     0s
+  21   6.08411434e-01  6.08409737e-01  3.23e-11 9.98e-15  2.60e-10     0s
+  22   6.08410770e-01  6.08410400e-01  8.54e-12 1.21e-14  5.69e-11     0s
+
+Barrier solved model in 22 iterations and 0.22 seconds (0.10 work units)
+Optimal objective 6.08410770e-01
+
+n: 4
+Runtime: 0.22 seconds
+Objective: 0.608410770478
+KVV benchmark at n=4: 0.590400000000
+Limit 1 - 1/e:          0.632120558829

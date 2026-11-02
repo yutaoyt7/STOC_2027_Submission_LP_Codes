@@ -1,0 +1,77 @@
+Set parameter Username
+Set parameter LicenseID to value 2841834
+Academic license - for non-commercial use only - expires 2027-07-06
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Set parameter Threads to value 32
+Set parameter Presolve to value 2
+Set parameter BarOrder to value 1
+Set parameter BarConvTol to value 1e-10
+Set parameter OptimalityTol to value 1e-09
+Set parameter OutputFlag to value 1
+Gurobi Optimizer version 12.0.2 build v12.0.2rc0 (mac64[arm] - Darwin 23.5.0 23F79)
+
+CPU model: Apple M3
+Thread count: 8 physical cores, 8 logical processors, using up to 32 threads
+
+Warning: Thread count (32) is larger than processor count (8)
+         Reduce the value of the Threads parameter to improve performance
+
+
+Non-default parameters:
+OptimalityTol  1e-09
+Method  2
+BarConvTol  1e-10
+BarOrder  1
+Crossover  0
+Presolve  2
+Threads  32
+
+Optimize a model with 323 rows, 334 columns and 1422 nonzeros
+Model fingerprint: 0x11e36c7b
+Coefficient statistics:
+  Matrix range     [1e-01, 5e+08]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e-01, 5e-01]
+  RHS range        [2e-03, 1e+00]
+Warning: Model contains large matrix coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 165 rows and 134 columns
+Presolve time: 0.00s
+Presolved: 158 rows, 200 columns, 1122 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 2.048e+03
+ Factor NZ  : 5.059e+03
+ Factor Ops : 1.939e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.26238670e+03 -1.27864367e+03  2.52e+03 2.22e-01  8.92e+01     0s
+   1   3.89471972e+02 -6.06830930e+02  5.91e+02 1.34e-01  2.15e+01     0s
+   2   1.74090557e+01 -6.38984715e+01  2.45e+01 7.19e-03  1.02e+00     0s
+   3   1.72325739e+00 -8.03006908e+00  1.04e+00 3.30e-06  5.46e-02     0s
+   4   9.51103613e-01 -1.07996686e+00  3.33e-02 4.83e-08  5.60e-03     0s
+   5   7.73481462e-01  3.81489674e-01  8.67e-04 5.55e-16  9.53e-04     0s
+   6   6.77477736e-01  5.53134619e-01  1.13e-04 3.37e-16  3.01e-04     0s
+   7   6.33890764e-01  6.17602186e-01  2.77e-06 6.27e-16  3.93e-05     0s
+   8   6.25258687e-01  6.24848225e-01  6.31e-08 1.24e-15  9.91e-07     0s
+   9   6.25003225e-01  6.24991917e-01  7.86e-10 2.38e-15  2.73e-08     0s
+  10   6.25000007e-01  6.24999947e-01  1.85e-12 5.46e-16  1.47e-10     0s
+  11   6.25000002e-01  6.24999986e-01  3.61e-10 4.44e-16  3.75e-11     0s
+  12   6.25000001e-01  6.24999996e-01  1.95e-10 2.22e-16  1.06e-11     0s
+  13   6.25000000e-01  6.24999998e-01  2.77e-10 2.22e-16  4.43e-12     0s
+  14   6.24999999e-01  6.24999999e-01  2.36e-10 3.33e-16  1.16e-12     0s
+  15   6.24999999e-01  6.25000000e-01  5.85e-10 5.55e-16  1.58e-13     0s
+
+Barrier solved model in 15 iterations and 0.00 seconds (0.00 work units)
+Optimal objective 6.24999999e-01
+
+n: 2
+Runtime: 0.00 seconds
+Objective: 0.624999999476
+KVV benchmark at n=2: 0.555555555556
+Limit 1 - 1/e:          0.632120558829
