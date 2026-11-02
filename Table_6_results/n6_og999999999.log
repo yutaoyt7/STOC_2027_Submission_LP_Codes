@@ -1,7 +1,3 @@
-Set parameter Username
-Set parameter LicenseID to value 2841834
-Academic license - for non-commercial use only - expires 2027-07-06
-Set parameter Method to value 2
 Set parameter Crossover to value 0
 Set parameter Threads to value 32
 Set parameter Presolve to value 2
