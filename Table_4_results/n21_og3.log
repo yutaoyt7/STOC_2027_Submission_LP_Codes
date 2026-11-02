@@ -1,7 +1,3 @@
-Set parameter WLSAccessID
-Set parameter WLSSecret
-Set parameter LicenseID to value 2684587
-Academic license 2684587 - for non-commercial use only - registered to yu___@northeastern.edu
 Set parameter Method to value 2
 Set parameter Crossover to value 0
 Set parameter Threads to value 64
